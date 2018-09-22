@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	min-height: 120px;
+	background-color: #121B2A;
+	overflow: hidden;
+}
+.wrapper {
+    overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+.logo {
+	width: 15%;
+	float: left;
+	margin-left: 12px;
+	margin-top: 18px;
+}
+.logo img {
+	width: 100%;
+}
+.nav {
+	width: 65%;
+	float: right;
+	overflow: hidden;
+}
+.nav ul {
+	list-style: none;
+	float: right;
+}
+.nav ul li {
+	float: left;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	margin-top: 50px;
+	display: block;
+	transition: .5s;
+}
+.nav ul li a:hover {
+	color: #234A67;
+
+}
+.banner {
+	min-height: 500px;
+	background-image:url(../images/technologies.jpg);
+	background-size: cover;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner_text {
+	/*text-align: left;*/
+	color: white;
+	padding-top: 300px;
+	margin-left: 80px;
+}
+.btn{
+	float: left;
+	margin-left: 80px;
+	padding: 0 10px 0 10px;
+	width: 15%;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+}
+.btext{
+	margin-top: 10px;
+    float: left;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 19px;
+}
+.btn img {
+	float: right;
+	width: 15%;
+	margin:7px;
+	/*padding-top: 6px;*/
+	/*margin-right: 22px;*/
+}
+.text_color{
+	color: #0072BB;
+}
+.service {
+	min-height: 150px;
+	background-color: #121B2C;
+	padding-top: 56px;
+	padding-bottom: 56px;
+	overflow: hidden;
+}
+.single_service {
+	width: 30%;
+    border-right: 1px solid #1A2334;
+    float: left;
+    padding: 10px;
+    margin-left: 13px;
+}
+.title {
+	overflow: hidden;
+}
+.icon {
+	float: left;
+	width: 25%;
+}
+.icon img{
+	width: 100%;
+}
+.icon_text {
+	float: left;
+	font-size: 25px;
+	color: white;
+	width: 60%;
+	margin-right: 25px;
+	margin: 15px 0;
+	/*margin-top: 10px;*/
+	padding-left: 10px;
+
+}
+.para1 {
+	margin right: 5px;
+
+}
+.para2{
+	color: #008CC1;
+}
+
+.servic_content {
+}
+.single_service:last-child {
+	border-right: none;
+	float: right;
+	/*margin-left: 5px;*/
+}
+.company_details {
+	background-color: #040810;
+	overflow: hidden;
+	padding: 30px 0px;
+}
+.company_details1 {
+	width: 22%;
+	color: #c2c2a3;
+	overflow: hidden;
+	float: left;
+	padding: 20px;
+	margin-right: 50px;
+}
+.company_details1 h1{
+	color: #c2c2a3;
+	margin-bottom: 10px;
+}
+.fst{
+	margin-bottom: 15px;
+}
+.snd{
+	margin-bottom: 10px;
+}
+.hcolor{
+	color: #0075B8;
+}
+.company_details1 p{
+	color: #c2c2a3;
+}
+.company_details2 {
+	width: 31%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin-right: 80px;
+}
+.company_details2_up {
+
+	color: #c2c2a3;
+	background-color: #121B2C;
+	border-radius: 10px;
+	padding: 19px;
+}
+.triangle-down {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 100px solid transparent;
+	border-top: 30px solid #121B2C;
+	bottom: 45px;
+	right: 15px;
+}
+.company_details2_down {
+	color: #c2c2a3;
+	margin-top: 35px;
+}
+.company_details2_down p{
+	padding-left: 48px;
+}
+.company_details3 {
+	width: 25%;
+	overflow: hidden;
+	float: left;
+}
+.company_details3_left {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.company_details3_right {
+	width: 55%;
+    color: #F2F2F2;
+    float: right;
+}
+.company_details3_right h1{
+	color: #0065A0;
+}
+.company_details3_right button{
+	margin-top: 5px;
+	background-color: #FFFFFF;
+	border-style: none;
+	padding: 2px 8px;
+	border-radius: 5px;
+}
+.footer{
+	background-color: #121B2C;
+	overflow: hidden;
+}
+.footer_nav {
+	float: left;
+    width: 65%;
+    margin-top: 33px;
+    margin-left: 45px;
+}
+.nav_ul{
+	float: left;
+	margin-top: 10px;
+}
+.footer_nav ul li{
+	float: left;
+	margin-right: 3px;
+	list-style: none;
+	border-right: 1px solid grey;
+}
+.footer_nav ul li:last-child{
+	border-right: none;
+}
+.footer_nav ul li a{
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-right: 12px;
+    padding-left: 8px;
+}
+.footer_nav ul li a:hover {
+    color: 1px solid yellow;
+}
+.logos{
+	float: right;
+	width: 25%;
+	margin-right: 103px;
+	margin-top: 12px;
+}
+.footer_image1 {
+	width: 20%;
+	float: left;
+}
+.footer_image2 {
+	width: 20%;
+	float: right;
+}
